@@ -10,6 +10,16 @@ http://www.openwebanalytics.com/
 
 This module is intended to work with OWA >= 1.4.0. It uses the "Javascript tracker" method. Further releases may include the "Php tecker" method.
 
+== Installing ==
+
+Pack all the repository content in a zip file and use the joomla! extension installer to install
+
+== Usage == 
+
+In the module manager search for Open Web Analytics Integration and open it. Choose a position where the code will be placed with the "Select position" button. Select "published" in the published combo box. Insert the needed parameters on the right in the "Module paramaeters" section. Choose the pages where the code should be placed in the "Module assignement" combo in the "Module assignement" section.
+
+You have done.
+
 == Licensing ==
 
-This software is released under the GPLv3. You can read it at http://www.gnu.org/licenses/gpl-3.0.html
+This software is released under the GPLv3. You can read it at http://www.gnu.org/licenses/gpl-3.0.html. Il is also

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="1.6.0" client="site" method="upgrade">
    <name>Open Web Analytics Integration</name>
-   <author>professioneit.com</author>
-   <version>1.0.0</version>
-   <description>This module allows to seemlessly integrate Open Web Analytics Tracker in Joomla!. The method used is the "Javascript tracker"</description>
+   <authorEmail>marco.cosentino@professioneit.com</authorEmail>
+   <authorUrl>http://professioneit.com</authorUrl>
+   <copyright>ProfessioneIT</copyright>
+   <license>GPLv3</license>
+   <author>Marco Cosentino @ ProfessioneIT</author>
+   <version>1.0</version>
+   <description>This module allows to seemlessly integrate Open Web Analytics Tracker in Joomla!</description>
    <files>
       <filename module="mod_open_web_analytics">mod_open_web_analytics.php</filename>
       <filename>mod_open_web_analytics.xml</filename>
