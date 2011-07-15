@@ -1,14 +1,14 @@
 = Joomla! Open Web Analytics integration module =
 
-== The module ==
+== The plugin ==
 
-This module outputs the tracking code directly in your template. You have to choose only the position and the pages affected and you have to input some config data.
+This plugin outputs the tracking code directly in your response right before the </body>. You have to input some config data.
 
 == Open Web Analytics ==
 
 http://www.openwebanalytics.com/
 
-This module is intended to work with OWA >= 1.4.0. It uses the "Javascript tracker" method. Further releases may include the "Php tecker" method.
+This module is intended to work with OWA >= 1.4.0. It uses the "Javascript tracker" method. Further releases may include the "Php tracker" method.
 
 == Installing ==
 
@@ -16,10 +16,10 @@ Pack all the repository content in a zip file and use the joomla! extension inst
 
 == Usage == 
 
-In the module manager search for Open Web Analytics Integration and open it. Choose a position where the code will be placed with the "Select position" button. Select "published" in the published combo box. Insert the needed parameters on the right in the "Module paramaeters" section. Choose the pages where the code should be placed in the "Module assignement" combo in the "Module assignement" section.
+In the plugins manager search for Open Web Analytics Integration and open it. Select "published" in the published combo box. Insert the needed parameters on the right in the "Plugin parameters" section.
 
 You have done.
 
 == Licensing ==
 
-This software is released under the GPLv3. You can read it at http://www.gnu.org/licenses/gpl-3.0.html. Il is also
+This software is released under the GPLv3. You can read it at http://www.gnu.org/licenses/gpl-3.0.html. Il is also included in LICENSE file.
