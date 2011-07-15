@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.6" group="system" method="upgrade">
+   <name>System - Open Web Analytics Integration</name>
+   <authorEmail>marco.cosentino@professioneit.com</authorEmail>
+   <authorUrl>http://professioneit.com</authorUrl>
+   <copyright>ProfessioneIT</copyright>
+   <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+   <author>Marco Cosentino @ ProfessioneIT</author>
+   <version>2.0</version>
+   <description>This module allows to seemlessly integrate Open Web Analytics Tracker in Joomla!</description>
+   <files>
+      <filename plugin="owa">owa.php</filename>
+      <filename>owa.xml</filename>
+      <filename>index.html</filename>
+   </files>
+   <config>
+      <fields name="params">
+	 <fieldset name="basic" label="Plugin Parameters">
+	    <field name="baseUrl" type="text" default="" label="OWA base URL" description="Do not forget the trailing /" />
+	    <field name="siteID" type="text" default="" label="OWA SiteId"  />
+	    <field name="trackClicks" type="radio" label="Track clicks" >
+	       <option value="1">Yes</option>
+	       <option value="0">No</option>
+	    </field>
+	    <field name="trackDomstream" type="radio" label="Track DOM stream" >
+	       <option value="1">Yes</option>
+	       <option value="0">No</option>
+	    </field>
+	 </fieldset>
+      </fields>
+   </config>
+
+</extension>
